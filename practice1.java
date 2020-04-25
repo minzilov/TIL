@@ -11,10 +11,10 @@ public class practice1 {
         System.out.println("정수를 입력하시오.");
         int a = scn.nextInt();
 
-        if(a==1){System.out.pritnln("1은(는) 소수가 아닙니다.");}
+        if(a==1){System.out.println("1은(는) 소수가 아닙니다.");}
         if(a==2){System.out.println("2은(는) 소수 입니다.");}
-
-        
-
-    }
+        for(int n=2; n<=a; ++n){
+          if(a%n!=0){System.out.println(a+"은(는) 소수가 아닙니다."); break;}
+          else{System.out.println(a+"은(는) 소수입니다."); break;}}
+        }
 }
