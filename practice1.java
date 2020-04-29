@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 import java.util.Scanner;
 
 //컴퓨터 프로그래밍 5주차 과제 
